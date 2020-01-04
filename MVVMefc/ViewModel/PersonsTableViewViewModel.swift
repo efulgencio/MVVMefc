@@ -48,9 +48,9 @@ fileprivate extension ServicePersonClient.GetPersonsFailureReason {
     func getErrorMessage() -> String? {
         switch self {
         case .unAuthorized:
-            return "Please login to load your friends."
+            return "No autorizado."
         case .notFound:
-            return "Could not complete request, please try again."
+            return "Petición no completadoa."
         }
     }
 }
