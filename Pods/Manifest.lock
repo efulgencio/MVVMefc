@@ -1,0 +1,26 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+  - PKHUD (5.3.0)
+
+DEPENDENCIES:
+  - Parse
+  - PKHUD (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Parse
+    - PKHUD
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+
+PODFILE CHECKSUM: 5e8462fb878427c4e5f9558ad2dc94cbfd4f808a
+
+COCOAPODS: 1.8.4
