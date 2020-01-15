@@ -42,7 +42,6 @@ class ServicePersonClient {
                       completion(.failure(nil))
                   }
               }
-
     }
 
 }

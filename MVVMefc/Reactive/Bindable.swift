@@ -28,5 +28,4 @@ class Bindable<T> {
         self.listener = listener
         listener?(value)
     }
-
 }
